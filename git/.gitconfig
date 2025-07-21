@@ -1,0 +1,9 @@
+[user]
+	name = Shivam Singh
+	email = shivm.0701@gmail.com
+[core]
+editor = nvim
+[init]
+defaultBranch = master
+[credential "https://github.com"]
+	helper = !gh auth git-credential

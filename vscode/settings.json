@@ -1,0 +1,62 @@
+{
+    "editor.formatOnSave": true,
+    "editor.fontSize": 20,
+    "editor.fontFamily": "IntoneMono Nerd Font",
+    "editor.fontLigatures": "'ss01'",
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderLineHighlight": "none",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.horizontal": "auto",
+    "editor.scrollbar.vertical": "auto",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontFamily": "IntoneMono Nerd Font",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.colorTheme": "Moonlight Italic",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "workbench.welcomePage.walkthroughs.openOnInstall": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
+    "explorer.confirmDelete": false,
+    "background.windowBackgrounds": ["/home/abstergo/Pictures/forest.jpg"],
+    "notebook.lineNumbers": "on",
+    "notebook.formatOnSave.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "black-formatter.args": ["--line-length", "160"],
+    "prettier.printWidth": 160,
+    "prettier.tabWidth": 4,
+    "git.autofetch": true,
+    "git.defaultBranchName": "master",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "python": "python -u < input.txt"
+    },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

@@ -1,0 +1,17 @@
+atomiks.moonlight
+esbenp.prettier-vscode
+formulahendry.code-runner
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-python.black-formatter
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+ms-vscode-remote.remote-containers
+pkief.material-icon-theme
+pkief.material-product-icons
+tamasfe.even-better-toml

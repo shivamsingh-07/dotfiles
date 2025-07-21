@@ -1,0 +1,95 @@
+# Starship Config
+
+format = """
+$os$username$directory$git_branch$git_status\
+$fill\
+$nodejs$python$docker_context$kubernetes$terraform\
+$line_break\
+$character
+"""
+
+add_newline = false
+palette = "catppuccin_mocha"
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+
+[fill]
+symbol = " "
+
+[os]
+format = "[$symbol]($style)"
+style = "white"
+disabled = false
+
+[os.symbols]
+Kali = "  "
+Ubuntu = "  "
+Linux = "  "
+
+[username]
+format = "[$user]($style)"
+style_user = "bold green"
+style_root = "bold red"
+disabled = false
+show_always = true
+
+[directory]
+format = " ❯ [$path]($style)[$read_only]($read_only_style)"
+style = "bold blue"
+read_only_style = "red"
+truncation_length = 5
+truncate_to_repo = false
+read_only = " 󰌾 "
+
+[git_branch]
+format = "[ 󰘬 $branch(:$remote_branch) ]($style)"
+style = "green"
+
+[python]
+format = '[ 󰌠 ${version}( \($virtualenv\))]($style)'
+style = "yellow"
+
+[nodejs]
+format = "[  $version]($style)"
+style = "green"
+
+[docker_context]
+format = "[   $context]($style)"
+style = "sapphire"
+
+[kubernetes]
+format = "[ 󱃾 $context( $namespace)]($style)"
+style = "lavender"
+
+[terraform]
+format = "[ 󱁢 $version]($style)"
+style = "teal"
+
+[character]
+success_symbol = "[ ](green)"
